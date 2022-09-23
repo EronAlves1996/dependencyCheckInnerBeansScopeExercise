@@ -7,7 +7,7 @@
 
 	<bean
 		class="io.eronalves1996.spring.dependencyCheckInnerBeansScopeExercise.University"
-		name="university" scope="protoype" p:id="12" p:name="PUC Minas"
+		name="university" scope="prototype" p:id="12" p:name="PUC Minas"
 		p:location="Belo Horizonte" />
 	<bean
 		class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />
